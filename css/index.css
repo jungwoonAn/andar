@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+main {
+    padding-bottom: 120px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slider {
+    width: 100%;
+    height: 670px;
+}
+
+/* 바로가기 */
+#direct {
+    height: 530px;
+    padding: 80px 0;
+}
+
+#direct .container {
+    background-color: pink;
+}
+
+/* 뉴 컬렉션 */
+#new {
+    height: 940px;
+    padding-bottom: 80px;
+}
+
+#new .container {
+    background-color: skyblue;
+}
+
+/* 배너 */
+#banner {
+    height: 140px;
+    padding-bottom: 80px;
+}
+
+#banner .container {
+    background-color: lightgreen;
+}
+
+/* 시즌 */
+#season {
+    height: 960px;
+    padding-bottom: 80px;
+}
+
+#season .container {
+    background-color: pink;
+}
+
+/* 이벤트 */
+#event {
+    height: 220px;
+    padding-bottom: 80px;
+}
+
+#event .container {
+    background-color: skyblue;
+}
+
+/* 위크 */
+#week {
+    height: 940px;
+    padding-bottom: 80px;
+}
+
+#week .container {
+    background-color: lightgreen;
+}
+
+/* 베스트 */
+#best {
+    height: 890px;
+    padding-bottom: 80px;
+}
+
+#best .container {
+    background-color: pink;
+}
+
+/* hot deal */
+#hot {
+    height: 900px;
+    padding-bottom: 80px;
+}
+
+#hot .container {
+    background-color: skyblue;
+}
+
+/* 트렌드 */
+#trand {
+    height: 860px;
+    padding-bottom: 80px;
+}
+
+#trand .container {
+    background-color: lightgreen;
+}
+
+/* 브랜드 */
+#brand {
+    height: 890px;
+    padding-bottom: 80px;
+}
+
+#brand .container {
+    background-color: pink;
+}
+
+/* recommend */
+#recommend {
+    height: 800px;
+    padding-bottom: 80px;
+}
+
+#recommend .container {
+    background-color: skyblue;
+}
