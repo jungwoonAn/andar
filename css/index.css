@@ -28,16 +28,21 @@ main {
 #slider {
     width: 100%;
     height: 670px;
+    background-color: beige;
 }
 
 /* 바로가기 */
 #direct {
-    height: 530px;
+    height: 680px;
     padding: 80px 0;
 }
 
 #direct .container {
     background-color: pink;
+}
+
+#direct img {
+    width: 100%;
 }
 
 /* 뉴 컬렉션 */
