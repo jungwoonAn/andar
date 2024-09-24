@@ -3,12 +3,16 @@
 html, body {
     font-family: "Noto Sans KR", "Noto Sans", sans-serif;
     position: relative;
+    color: #333;
 }
+
+li {float: left;}
 
 h2 {
     font-family: "Montserrat", "Nanum Gothic", system-ui;
     font-size: 28px;
     font-weight: 800;
+    padding: 10px 0 30px 0;
 }
 
 #wrap {
@@ -21,6 +25,90 @@ h2 {
     height: 100%; 
     margin: 0 auto;
 }
+
+
+/* 스와이퍼 공통 */
+.swiper {
+    width: 100%;
+    height: calc(100% - 74px);
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after { 
+    color: rgba(0,0,0,0.5);
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: rgba(0,0,0,0.5);
+}
+
+/* left/right 공통 */
+.left, .right {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcyan;
+}
+
+/* product공통 */
+.product_1 {
+    width: 100%;
+    height: 600px;
+    text-align: left;
+}
+
+.product_2 {
+    width: 49%;
+    height: 600px;
+    text-align: left;
+}
+
+.product_4 {
+    width: 24%;
+    height: 600px;
+    text-align: left;
+}
+
+.product_thumb {
+    height: 500px;
+    /* background-color: beige; */
+}
+
+.product_content {
+    padding: 20px 0;
+}
+
+.product_content h5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.product_content p { 
+    padding-top: 5px;
+}
+
+.product_content span {
+    color: #8e1f29;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
 
 /* header */
 header {width: 100%; }
@@ -106,10 +194,6 @@ header {width: 100%; }
     align-items: center;
 }
 
-.header_bottom li {
-    float: left;
-}
-
 .header_bottom ul li:not(:first-child, :last-child) {
     padding: 0 20px;
 }
@@ -125,7 +209,6 @@ footer {
 }
 
 footer li {
-    float: left;
     padding-right: 30px;
 }
 

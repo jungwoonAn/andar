@@ -1,146 +1,225 @@
 @charset "utf-8";
 
-main {
-    padding-bottom: 120px;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
+/* 슬라이더 비디오 */
 #slider {
     width: 100%;
-    height: 670px;
-    background-color: beige;
+    overflow: hidden;
+}
+
+#slider video {
+    position: relative;
+    top: -6.7vw;
+    left: 0;
+    width: 100%;
 }
 
 /* 바로가기 */
 #direct {
-    height: 680px;
-    padding: 80px 0;
-}
-
-#direct .container {
-    background-color: pink;
+    padding-bottom: 100px;
 }
 
 #direct img {
     width: 100%;
 }
 
-/* 뉴 컬렉션 */
-#new {
-    height: 940px;
-    padding-bottom: 80px;
+/* andar's PICK */
+#pick {
+    height: 900px;
+    padding-bottom: 100px;
 }
 
-#new .container {
+#pick .container {
     background-color: skyblue;
+}
+
+#pick .pickSwiper .swiper-scrollbar {
+    left: auto;
+    right: 0;
+    bottom: 15px;
+    width: 49%;
 }
 
 /* 배너 */
 #banner {
-    height: 140px;
-    padding-bottom: 80px;
+    height: 280px;
+    padding-bottom: 100px;
 }
 
-#banner .container {
-    background-color: lightgreen;
+#banner img {
+    width: 100%;
 }
 
-/* 시즌 */
-#season {
-    height: 960px;
-    padding-bottom: 80px;
-}
-
-#season .container {
-    background-color: pink;
-}
-
-/* 이벤트 */
-#event {
-    height: 220px;
-    padding-bottom: 80px;
-}
-
-#event .container {
-    background-color: skyblue;
-}
-
-/* 위크 */
-#week {
-    height: 940px;
-    padding-bottom: 80px;
-}
-
-#week .container {
-    background-color: lightgreen;
-}
-
-/* 베스트 */
+/* 베스트셀러 */
 #best {
-    height: 890px;
-    padding-bottom: 80px;
+    height: 850px;
+    padding-bottom: 100px;
 }
 
 #best .container {
     background-color: pink;
 }
 
-/* hot deal */
-#hot {
-    height: 900px;
-    padding-bottom: 80px;
+#best .tab {
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 
-#hot .container {
-    background-color: skyblue;
+#best .tab li {
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 
-/* 트렌드 */
-#trand {
-    height: 860px;
-    padding-bottom: 80px;
+#best .tab li.active {
+    background-color: #B75622;
 }
 
-#trand .container {
-    background-color: lightgreen;
+#best .tab li.active a {
+    color: #fff;
 }
 
-/* 브랜드 */
-#brand {
+#best .product {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 브랜드스토리 */
+#story {
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+#story .container {
+    padding: 40px 0; 
+    background-color: #B75622;
+}
+
+#story h4 {
+    font-size: 20px;
+}
+
+#story h3 {
+    font-size: 40px;
+    padding: 5px 0 20px 0;
+}
+
+#story button {
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background-color: #B75622;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 위크 */
+#new {
+    height: 950px;
+    padding-bottom: 100px;
+}
+
+#new h2 {padding: 10px 0;}
+
+#new .container {
+    height: auto;
+}
+
+#new .newSwiper .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 1400px;
+    height: 100%;
+    background-color: none;
+}
+
+#new .swiper-button-prev {
+    left: 12.5vw;
+}
+
+#new .swiper-button-next {
+    right: 12.5vw;
+}
+
+#new .swiper-pagination {
+    width: 1400px;
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#new .product_1 {
+    height: 800px;
+}
+
+#new .product_1 .product_thumb {
+    height: 650px;
+    box-shadow: 0px 0px 10px #eee;
+}
+
+/* outlet */
+#outlet {
+    padding-bottom: 100px;
+}
+
+#outlet img {
+    width: 100%;
+}
+
+/* 가을 이벤트 */
+#event {
     height: 890px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
-#brand .container {
-    background-color: pink;
+#event .swiper-slide {
+    align-items: flex-end;
+    text-align: left;
+}
+
+#event .event_content {
+    padding: 30px;
+}
+
+#event .event_content h3 {
+    font-size: 40px;
+}
+
+#event .white {
+    color: #fff;
+}
+
+/* 이벤트 썸네일 */
+#event .swiper-slide:nth-child(1) {
+    background: url(../img/event_thumb_01.jpg) center/cover;
+}
+
+#event .swiper-slide:nth-child(2) {
+    background: url(../img/event_thumb_02.jpg) center/cover;
+}
+
+#event .swiper-slide:nth-child(3) {
+    background: url(../img/event_thumb_03.jpg) center/cover;
+}
+
+#event .swiper-slide:nth-child(4) {
+    background: url(../img/event_thumb_04.jpg) center/cover;
+}
+
+#event .swiper-slide:nth-child(5) {
+    background: url(../img/event_thumb_05.jpg) center/cover;
 }
 
 /* recommend */
-#recommend {
+#set {
     height: 800px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
-#recommend .container {
-    background-color: skyblue;
+#set .swiper-slide {
+    justify-content: space-around;
 }
