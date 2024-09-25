@@ -1,0 +1,132 @@
+[
+    [
+        {
+            "thumb": "img/best_total_thumb_1.jpg",
+            "name": "(1+1) 에어쿨링 지니 시그니처 레깅스",
+            "sale": "50%",
+            "price": 49000
+        },
+        {
+            "thumb": "img/best_total_thumb_2.jpg",
+            "name": "에어리핏 폴로 롱슬리브 크롭티",
+            "sale": "",
+            "price": 41000
+        },
+        {
+            "thumb": "img/best_total_thumb_3.jpg",
+            "name": "아이스브리드 맨즈 카고 조커팬츠",
+            "sale": "30%",
+            "price": 55000
+        },
+        {
+            "thumb": "img/best_total_thumb_4.jpg",
+            "name": "에어데님 세미 부츠컷 청바지",
+            "sale": "14%",
+            "price": 59000
+        }
+    ],
+    [
+        {
+            "thumb": "img/best_women_thumb_1.jpg",
+            "name": "에어리핏 티셔츠(오버핏,스탠다드핏,슬림핏)",
+            "sale": "50%",
+            "price": 58000
+        },
+        {
+            "thumb": "img/best_women_thumb_2.jpg",
+            "name": "컴포트 프레시 오버핏 셔츠",
+            "sale": "",
+            "price": 69000
+        },
+        {
+            "thumb": "img/best_women_thumb_3.jpg",
+            "name": "에어스트 투웨이 카고 팬츠",
+            "sale": "14%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/best_women_thumb_4.jpg",
+            "name": "에어스트 폴로 롱슬리브 원피스",
+            "sale": "",
+            "price": 109000
+        }
+    ],
+    [
+        {
+            "thumb": "img/best_men_thumb_1.jpg",
+            "name": "에어데님 맨즈 슬림 테이퍼드핏 청바지",
+            "sale": "21%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/best_men_thumb_2.jpg",
+            "name": "시그니처 로고 피그먼트 맨즈 오버핏 맨투맨",
+            "sale": "",
+            "price": 75000
+        },
+        {
+            "thumb": "img/best_men_thumb_3.jpg",
+            "name": "맨즈 시그니처 골프 세트(폴로 티셔츠 + 슬랙스)",
+            "sale": "20%",
+            "price": 94000
+        },
+        {
+            "thumb": "img/best_men_thumb_4.jpg",
+            "name": "맨즈 모던 스트라이프 셔츠 & 이너티",
+            "sale": "19%",
+            "price": 89000
+        }
+    ],
+    [
+        {
+            "thumb": "img/best_junior_thumb_1.jpg",
+            "name": "주니어 에어리핏 와이드 팬츠(여)",
+            "sale": "",
+            "price": 59000
+        },
+        {
+            "thumb": "img/best_junior_thumb_2.jpg",
+            "name": "주니어 스프레치 플리스 스웻 후디(남녀공용)",
+            "sale": "",
+            "price": 69000
+        },
+        {
+            "thumb": "img/best_junior_thumb_3.jpg",
+            "name": "주니어 라이트 윈드자켓(남)",
+            "sale": "",
+            "price": 89000
+        },
+        {
+            "thumb": "img/best_junior_thumb_4.jpg",
+            "name": "주니어 에어리핏 피치 스탠다드핏 롱슬리브(여)",
+            "sale": "",
+            "price": 41000
+        }
+    ],
+    [
+        {
+            "thumb": "img/best_homt_thumb_1.jpg",
+            "name": "안다르 제트플라이 블랙",
+            "sale": "",
+            "price": 139000
+        },
+        {
+            "thumb": "img/best_homt_thumb_2.jpg",
+            "name": "릴렉스 논슬립 요가 타월",
+            "sale": "",
+            "price": 35900
+        },
+        {
+            "thumb": "img/best_homt_thumb_3.jpg",
+            "name": "릴렉스 소프트 웨이트바 2kg",
+            "sale": "",
+            "price": 39000
+        },
+        {
+            "thumb": "img/best_homt_thumb_4.jpg",
+            "name": "원터치 퍼포먼스 보틀(800ml)",
+            "sale": "5%",
+            "price": 18000
+        }
+    ]
+]

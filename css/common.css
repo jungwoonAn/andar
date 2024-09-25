@@ -1,15 +1,19 @@
 @charset "utf-8";
 
 html, body {
-    font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+    font-family: "Poppins", "Noto Sans KR", sans-serif;
     position: relative;
     color: #333;
 }
 
 li {float: left;}
 
+li:hover > a, .phover:hover h5 {
+    color: #B75622;
+}
+
 h2 {
-    font-family: "Montserrat", "Nanum Gothic", system-ui;
+    font-family: "Outfit", "Noto Sans KR", sans-serif;
     font-size: 28px;
     font-weight: 800;
     padding: 10px 0 30px 0;
@@ -63,7 +67,6 @@ h2 {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: lightcyan;
 }
 
 /* product공통 */
@@ -87,7 +90,10 @@ h2 {
 
 .product_thumb {
     height: 500px;
-    /* background-color: beige; */
+}
+
+.product_thumb img {
+    width: 100%;
 }
 
 .product_content {
@@ -118,9 +124,11 @@ header {width: 100%; }
     width: 100%;
     height: 90px;
     position: relative;
+    z-index: 11;
 }
 
 .header_top .container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,17 +161,17 @@ header {width: 100%; }
     outline: none;
 }
 
-/* icon_nav */
-.header_top .icon_nav {
-    width: 300px;
-    padding-right: 10px;
+.header_top .search img:hover {
+    cursor: pointer;
 }
 
-.header_top .icons {    
+/* icon_nav */
+.header_top .icons {
+    width: 300px;   
+    padding-right: 10px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header_top .icons li {
@@ -185,23 +193,61 @@ header {width: 100%; }
     width: 100%;
     height: 50px;
     border-top: 1px solid #eee;
+    background-color: #fff;
+}
+
+.header_bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bottom .logo {
+    display: none;
+}
+.header_bottom .logo img {
+    width: 100px;
 }
 
 .header_bottom nav {
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_bottom ul li:not(:first-child, :last-child) {
+.header_bottom nav ul li:not(:first-child, :last-child) {
     padding: 0 20px;
 }
+.header_bottom nav ul li:first-child {padding-right: 20px;}
+.header_bottom nav ul li:last-child {padding-left: 20px;}
 
-.header_bottom ul li:first-child {padding-right: 20px;}
+.header_bottom nav li {
+    position: relative;
+}
+.header_bottom nav li .sub {
+    position: absolute;
+    top: 38px;
+    left: -10px;
+    z-index: 10;
+    width: 160px;
+    background-color: white;
+    display: none;
+}
 
-.header_bottom ul li:last-child {padding-left: 20px;}
+.header_bottom nav li .sub li {
+    float: none;
+    padding: 0 15px 10px;
+}
 
+.header_bottom .icons {    
+    width: 160px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
 
 /* footer */
 footer {
@@ -271,6 +317,10 @@ footer li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.app_down:hover {
+    cursor: pointer;
 }
 
 .app_name {

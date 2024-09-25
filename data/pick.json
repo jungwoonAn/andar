@@ -1,0 +1,57 @@
+[
+    {
+        "left_img": "img/pick_left_1.jpg",
+        "thumb_1": "img/pick_right_1_1.jpg",
+        "name_1": "에어리핏 와이드 팬츠",
+        "sale_1": "",
+        "price_1": 59000,
+        "thumb_2": "img/pick_right_1_2.jpg",
+        "name_2": "에어로워싱 셔링 후디 자켓",
+        "sale_2": "",
+        "price_2": 89000        
+    },
+    {
+        "left_img": "img/pick_left_2.jpg",
+        "thumb_1": "img/pick_right_2_1.jpg",
+        "name_1": "에어윈드 맨즈 조커팬츠",
+        "sale_1": "14%",
+        "price_1": 59000,
+        "thumb_2": "img/pick_right_2_2.jpg",
+        "name_2": "어반액티브 맨즈 슬랙스(워크레저)",
+        "sale_2": "",
+        "price_2": 79000        
+    },
+    {
+        "left_img": "img/pick_left_3.jpg",
+        "thumb_1": "img/pick_right_3_1.jpg",
+        "name_1": "주니어 릴레어 탱크 스포츠 브라(여)",
+        "sale_1": "51%",
+        "price_1": 19000,
+        "thumb_2": "img/pick_right_3_2.jpg",
+        "name_2" : "주니어 아이스브리드 카고 트레이닝팬츠(남)",
+        "sale_2": "",
+        "price_2": 65000        
+    },
+    {
+        "left_img": "img/pick_left_4.jpg",
+        "thumb_1": "img/pick_right_4_1.jpg",
+        "name_1": "폴더블 캐리백",
+        "sale_1": "",
+        "price_1": 65000,
+        "thumb_2": "img/pick_right_4_2.jpg",
+        "name_2" : "맨즈 A.R.M 크루 삭스",
+        "sale_2": "12%",
+        "price_2": 6900        
+    },
+    {
+        "left_img": "img/pick_left_5.jpg",
+        "thumb_1": "img/pick_right_5_1.jpg",
+        "name_1": "에어솔리드 투인원 스커트",
+        "sale_1": "6%",
+        "price_1": 55000,
+        "thumb_2": "img/pick_right_5_2.jpg",
+        "name_2": "NEW 에어스트 맨즈 슬랙스",
+        "sale_2": "12%",
+        "price_2": 69000        
+    }
+]

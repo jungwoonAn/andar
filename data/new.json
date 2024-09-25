@@ -1,0 +1,47 @@
+[
+    {
+        "thumb": "img/new_thumb_01.jpg",
+        "name": "맨즈 모던 스트라이프 셔츠",
+        "price": 79000
+    },
+    {
+        "thumb": "img/new_thumb_02.jpg",
+        "name": "시그니처 로고 피그먼트 오버핏 크롭 후디",
+        "price": 75000
+    },
+    {
+        "thumb": "img/new_thumb_03.jpg",
+        "name": "어반코튼 맨즈 치노팬츠",
+        "price": 79000
+    },
+    {
+        "thumb": "img/new_thumb_04.jpg",
+        "name": "시그니처 로고 피그먼트 크롭 맨투맨",
+        "price": 75000
+    },
+    {
+        "thumb": "img/new_thumb_05.jpg",
+        "name": "맨즈 올데이 포켓 셔츠",
+        "price": 59000
+    },
+    {
+        "thumb": "img/new_thumb_06.jpg",
+        "name": "코튼 플레어 폴로 원피스",
+        "price": 79000
+    },
+    {
+        "thumb": "img/new_thumb_07.jpg",
+        "name": "노블니트 맨즈 폴로 롱슬리브",
+        "price": 85000
+    },
+    {
+        "thumb": "img/new_thumb_08.jpg",
+        "name": "에어리핏 오버핏 티셔츠",
+        "price": 45000
+    },
+    {
+        "thumb": "img/new_thumb_09.jpg",
+        "name": "소프트 니트 타이업 가디건",
+        "price": 45000
+    }
+]

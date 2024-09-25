@@ -1,0 +1,82 @@
+[
+    
+    [
+        {
+            "thumb": "img/set_thumb_01.jpg",
+            "name": "오버핏 숏슬리브 & 바이커 4부 레깅스",
+            "sale": "32%",
+            "price": 55000
+        },
+        {
+            "thumb": "img/set_thumb_02.jpg",
+            "name": "오버핏 숏슬리브 & 시그니처 레깅스",
+            "sale": "32%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/set_thumb_03.jpg",
+            "name": "스탠다드핏 숏슬리브 & 4.5부 레깅스",
+            "sale": "32%",
+            "price": 55000
+        },
+        {
+            "thumb": "img/set_thumb_04.jpg",
+            "name": "숏슬리브 크롭티 &  샤론 부츠컷 레깅스",
+            "sale": "21%",
+            "price": 69000
+        }
+    ],
+    [
+        {
+            "thumb": "img/set_thumb_05.jpg",
+            "name": "탱크탑 & 시그니처 레깅스",
+            "sale": "39%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/set_thumb_06.jpg",
+            "name": "숏슬리브 크롭티 &  조거팬츠",
+            "sale": "29%",
+            "price": 69000
+        },
+        {
+            "thumb": "img/set_thumb_07.jpg",
+            "name": "라운드넥 크롭탑 & 레깅스",
+            "sale": "32%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/set_thumb_08.jpg",
+            "name": "릴레어 크롭탑 & 레깅스",
+            "sale": "35%",
+            "price": 59000
+        }
+    ],
+    [
+        {
+            "thumb": "img/set_thumb_09.jpg",
+            "name": "에어엑스퍼트 하프넥 크롭탑 & 레깅스",
+            "sale": "37%",
+            "price": 59000
+        },
+        {
+            "thumb": "img/set_thumb_10.jpg",
+            "name": "슬림핏 숏슬리브 &  프론트 슬릿 부츠컷 레깅스",
+            "sale": "29%",
+            "price": 69000
+        },
+        {
+            "thumb": "img/set_thumb_11.jpg",
+            "name": "윈드자켓 & 썸머 조거팬츠",
+            "sale": "17%",
+            "price": 139000
+        },
+        {
+            "thumb": "img/set_thumb_12.jpg",
+            "name": "에어엑스퍼트 Y백 크롭탑 & 레깅스",
+            "sale": "37%",
+            "price": 59000
+        }
+    ]
+    
+]
