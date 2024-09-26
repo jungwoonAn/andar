@@ -1,5 +1,5 @@
 // andar's PICK
-fetch('../data/pick.json')
+fetch('https://jungwoonan.github.io/andar/data/pick.json')
 .then(response => {
     return response.json()
 })
@@ -55,7 +55,7 @@ function pick(obj){
 }
 
 // 베스트셀러
-fetch('../data/best.json')
+fetch('https://jungwoonan.github.io/andar/data/best.json')
 .then(response => {
     return response.json()
 })
@@ -92,7 +92,7 @@ function best(obj){
 }
 
 // new item
-fetch('../data/new.json')
+fetch('https://jungwoonan.github.io/andar/data/new.json')
 .then(response => {
     return response.json()
 })
@@ -118,7 +118,7 @@ function newitem(obj){
 }
 
 // 전지현set
-fetch('../data/set.json')
+fetch('https://jungwoonan.github.io/andar/data/set.json')
 .then(response => {
     return response.json()
 })
