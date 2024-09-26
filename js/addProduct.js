@@ -28,7 +28,7 @@ function pick(obj){
 
         slide.append(`
             <div class="left">
-                <a href="#"><img src="../${obj[i].left_img}" alt="pick"></a>
+                <a href="#"><img src="${obj[i].left_img}" alt="pick"></a>
             </div>
         `);
 
@@ -36,7 +36,7 @@ function pick(obj){
             <div class="right">
                 <div class="product_2 phover">
                     <div class="product_thumb">
-                        <img src="../${obj[i].thumb_1}" alt="pick">
+                        <img src="${obj[i].thumb_1}" alt="pick">
                     </div>
                     <div class="product_content">
                         <h5>${obj[i].name_1}</h5>
@@ -46,7 +46,7 @@ function pick(obj){
                 </div>
                 <div class="product_2 phover">
                     <div class="product_thumb">
-                        <img src="../${obj[i].thumb_2}" alt="pick">
+                        <img src="${obj[i].thumb_2}" alt="pick">
                     </div>
                     <div class="product_content">
                         <h5>${obj[i].name_2}</h5>
