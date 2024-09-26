@@ -1,4 +1,5 @@
 // andar's PICK
+// fetch('../data/pick.json')
 fetch('https://jungwoonan.github.io/andar/data/pick.json',{
     headers: {
         'Content-Type': 'application/json',
@@ -9,6 +10,7 @@ fetch('https://jungwoonan.github.io/andar/data/pick.json',{
     return response.json()
 })
 .then(obj => pick(obj))
+.catch(err => console.log(err))
 
 function pick(obj){
     for(let i in obj){
@@ -26,11 +28,31 @@ function pick(obj){
             sale_2 = `<span>${obj[i].sale_2}</span> ` 
         }
 
-        slide.append(`
-            <div class="left">
-                <a href="#"><img src="${obj[i].left_img}" alt="pick"></a>
-            </div>
-        `);
+        if(i == 4){
+            slide.append(`
+                <div class="left">
+                    <a href="#"><img src="${obj[i].left_img}" alt="pick"></a>
+                    <div class="content white">
+                        <h4>${obj[i].content_sub_title}</h4>
+                        <h3>${obj[i].content_main_title}</h3>
+                        <p>${obj[i].content_desc_1}<br>
+                        ${obj[i].content_desc_2}</p>
+                    </div>
+                </div>
+            `);
+        }else {
+            slide.append(`
+                <div class="left">
+                    <a href="#"><img src="${obj[i].left_img}" alt="pick"></a>
+                    <div class="content">
+                        <h4>${obj[i].content_sub_title}</h4>
+                        <h3>${obj[i].content_main_title}</h3>
+                        <p>${obj[i].content_desc_1}<br>
+                        ${obj[i].content_desc_2}</p>
+                    </div>
+                </div>
+            `);
+        }        
 
         slide.append(`
             <div class="right">
@@ -60,6 +82,7 @@ function pick(obj){
 }
 
 // 베스트셀러
+// fetch('../data/best.json')
 fetch('https://jungwoonan.github.io/andar/data/best.json',{
     headers: {
         'Content-Type': 'application/json',
@@ -70,6 +93,7 @@ fetch('https://jungwoonan.github.io/andar/data/best.json',{
     return response.json()
 })
 .then(obj => best(obj))
+.catch(err => console.log(err))
 
 function best(obj){
     for(let i in obj){
@@ -102,6 +126,7 @@ function best(obj){
 }
 
 // new item
+// fetch('../data/new.json')
 fetch('https://jungwoonan.github.io/andar/data/new.json',{
     headers: {
         'Content-Type': 'application/json',
@@ -112,6 +137,7 @@ fetch('https://jungwoonan.github.io/andar/data/new.json',{
     return response.json()
 })
 .then(obj => newitem(obj))
+.catch(err => console.log(err))
 
 function newitem(obj){
     for(let i in obj){
@@ -133,6 +159,7 @@ function newitem(obj){
 }
 
 // 전지현set
+// fetch('../data/set.json')
 fetch('https://jungwoonan.github.io/andar/data/set.json',{
     headers: {
         'Content-Type': 'application/json',
@@ -143,6 +170,7 @@ fetch('https://jungwoonan.github.io/andar/data/set.json',{
     return response.json()
 })
 .then(obj => modelset(obj))
+.catch(err => console.log(err))
 
 function modelset(obj){    
     for(let i in obj){

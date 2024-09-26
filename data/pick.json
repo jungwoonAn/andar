@@ -1,6 +1,10 @@
 [
     {
         "left_img": "img/pick_left_1.jpg",
+        "content_sub_title": "애슬레저 1위",
+        "content_main_title": "전지현의 안다르",
+        "content_desc_1": "일상 속 운동을 즐기는 삶,",
+        "content_desc_2": "안다르와 함께해요.",
         "thumb_1": "img/pick_right_1_1.jpg",
         "name_1": "에어리핏 와이드 팬츠",
         "sale_1": "",
@@ -12,6 +16,10 @@
     },
     {
         "left_img": "img/pick_left_2.jpg",
+        "content_sub_title": "테크니컬 애슬레저의 정수",
+        "content_main_title": "안다르 맨즈",
+        "content_desc_1": "안다르만의 기술력으로",
+        "content_desc_2": "출근부터 레저까지 편안하게",
         "thumb_1": "img/pick_right_2_1.jpg",
         "name_1": "에어윈드 맨즈 조커팬츠",
         "sale_1": "14%",
@@ -23,6 +31,10 @@
     },
     {
         "left_img": "img/pick_left_3.jpg",
+        "content_sub_title": "우리 아이 스타일 살려주는",
+        "content_main_title": "편하고 쿨한 안다르",
+        "content_desc_1": "등교부터 방과후까지",
+        "content_desc_2": "남다른 집중력의 비결",
         "thumb_1": "img/pick_right_3_1.jpg",
         "name_1": "주니어 릴레어 탱크 스포츠 브라(여)",
         "sale_1": "51%",
@@ -34,6 +46,10 @@
     },
     {
         "left_img": "img/pick_left_4.jpg",
+        "content_sub_title": "애슬레저 1위",
+        "content_main_title": "전지현의 안다르",
+        "content_desc_1": "일상 속 운동을 즐기는 삶,",
+        "content_desc_2": "안다르와 함께해요.",
         "thumb_1": "img/pick_right_4_1.jpg",
         "name_1": "폴더블 캐리백",
         "sale_1": "",
@@ -45,6 +61,10 @@
     },
     {
         "left_img": "img/pick_left_5.jpg",
+        "content_sub_title": "테크니컬 애슬레저",
+        "content_main_title": "가을 골프 위크",
+        "content_desc_1": "신축성에 깔끔한 디자인까지,",
+        "content_desc_2": "풀스윙도 편안해요.",
         "thumb_1": "img/pick_right_5_1.jpg",
         "name_1": "에어솔리드 투인원 스커트",
         "sale_1": "6%",

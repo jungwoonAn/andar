@@ -35,6 +35,12 @@
     width: 49%;
 }
 
+#pick .content {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+}
+
 /* 배너 */
 #banner {
     height: 280px;
@@ -89,15 +95,6 @@
 #story .container {
     padding: 40px 0; 
     background-color: #B75622;
-}
-
-#story h4 {
-    font-size: 20px;
-}
-
-#story h3 {
-    font-size: 40px;
-    padding: 5px 0 20px 0;
 }
 
 #story button {
@@ -182,18 +179,6 @@
 #event .swiper-slide {
     align-items: flex-end;
     text-align: left;
-}
-
-#event .event_content {
-    padding: 30px;
-}
-
-#event .event_content h3 {
-    font-size: 40px;
-}
-
-#event .white {
-    color: #fff;
 }
 
 /* 이벤트 썸네일 */
