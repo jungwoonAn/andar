@@ -217,18 +217,18 @@ header {width: 100%; }
     align-items: center;
 }
 
-.header_bottom nav ul li:not(:first-child, :last-child) {
-    padding: 0 20px;
+.header_bottom nav ul li:not(:last-child) {
+    padding: 11px 20px 11px 0;
 }
-.header_bottom nav ul li:first-child {padding-right: 20px;}
-.header_bottom nav ul li:last-child {padding-left: 20px;}
+/* .header_bottom nav ul li:first-child {padding: 11px 20px 11px 0;} */
+.header_bottom nav ul li:last-child {padding: 11px 0 11px 20px;}
 
 .header_bottom nav li {
     position: relative;
 }
 .header_bottom nav li .sub {
     position: absolute;
-    top: 38px;
+    top: 48px;
     left: -10px;
     z-index: 10;
     width: 160px;
