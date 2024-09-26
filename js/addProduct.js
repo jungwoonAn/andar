@@ -1,5 +1,10 @@
 // andar's PICK
-fetch('https://jungwoonan.github.io/andar/data/pick.json')
+fetch('https://jungwoonan.github.io/andar/data/pick.json',{
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+})
 .then(response => {
     return response.json()
 })
@@ -55,7 +60,12 @@ function pick(obj){
 }
 
 // 베스트셀러
-fetch('https://jungwoonan.github.io/andar/data/best.json')
+fetch('https://jungwoonan.github.io/andar/data/best.json',{
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+})
 .then(response => {
     return response.json()
 })
@@ -92,7 +102,12 @@ function best(obj){
 }
 
 // new item
-fetch('https://jungwoonan.github.io/andar/data/new.json')
+fetch('https://jungwoonan.github.io/andar/data/new.json',{
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+})
 .then(response => {
     return response.json()
 })
@@ -118,7 +133,12 @@ function newitem(obj){
 }
 
 // 전지현set
-fetch('https://jungwoonan.github.io/andar/data/set.json')
+fetch('https://jungwoonan.github.io/andar/data/set.json',{
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+})
 .then(response => {
     return response.json()
 })
